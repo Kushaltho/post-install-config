@@ -29,29 +29,118 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Help Topics
 
 
-Configure Users (customers)
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Part 3 (Post Installation Setup)
+Configure Roles
+Admin Panel -> Agents -> Roles
+Supreme Admin
+
 </p>
 <br />
 
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Departments
+Admin Panel -> Agents -> Departments
+System Administrators
+
 </p>
 <br />
 
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Teams
+Admin Panel -> Agents -> Teams
+Level I Support
+Level II Support
+
+</p>
+<br />
+
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Allow anyone to create tickets
+Admin Panel -> Settings -> User Settings
+Registration Required: Require registration and login to create tickets 
+
+</p>
+<br />
+
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Agents (workers)
+Admin Panel -> Agents -> Add New
+Jane
+John
+
+</p>
+<br />
+
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Users (customers)
+Agent Panel -> Users -> Add New
+Karen
+Ken
+
+</p>
+<br />
+
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure SLA
+Admin Panel -> Manage -> SLA
+Sev-A (1 hour, 24/7)
+Sev-B (4 hours, 24/7)
+Sev-C (8 hours, business hours)
+
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Help Topics
+  
+Admin Panel -> Manage -> Help Topics
+  
+Business Critical Outage
+  
+Personal Computer Issues
+Equipment Request
+Password Reset
+
+
 </p>
 <br />
