@@ -6,9 +6,9 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+<h2>Before Starting, Finish:</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+[osTicket: Prerequisites and Installation](https://github.com/Kushaltho/osticket-prereqs)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -28,36 +28,68 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure SLA
 - Configure Help Topics
 
-
 <h2>Configuration Steps</h2>
 
+<h3> Step 1</h3>
+
+
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fHQwy5U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+<img src="https://i.imgur.com/pmsDRxP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Part 3 (Post Installation Setup)
-Configure Roles
-Admin Panel -> Agents -> Roles
-Supreme Admin
-
-</p>
-<br />
-
-
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Configure Departments
-Admin Panel -> Agents -> Departments
-System Administrators
 
+  If you had stopped and taken a break after the Installation then, 
+  
+  Start the VM , remote into the VM, go to http://localhost/osTicket/scp/login.php in the VM and login using the credentials you made.
+ 
+  And a similar page should open up.
 </p>
 <br />
 
 
 
+<h3> Step 1</h3>
+<p>
+<img src="https://i.imgur.com/Bob96DS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Quick Difference between an admin and agent is that an admin(job title usally system admin) sets up the osticket enironment/settings like SLAs while the agent(help desk) will work through the tickets. You will have a much clearer understanding after completing the whole walkthrough.
+    
+
+    Admin Panel -> Agents -> Roles -> Add New Role
+
+    Create Admin
+
+    We will just allow it every permission 
+ 
+</p>
+<br />
+
+
+
+
+<h3> Step 1</h3>
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Deparments are used to divide and class so that when errors/tickets come through it can be directed towars the right deparemnt such as when there is a subnetting problem we would send it to the networking department.
+    
+    Configure Departments
+
+    Admin Panel -> Agents -> Departments
+
+    Create System Administrators
+    
+
+</p>
+<br />
+
+
+<h3> Step 1</h3>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -71,7 +103,7 @@ Level II Support
 <br />
 
 
-
+<h3> Step 1</h3>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -84,7 +116,7 @@ Registration Required: Require registration and login to create tickets
 <br />
 
 
-
+<h3> Step 1</h3>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -98,7 +130,7 @@ John
 <br />
 
 
-
+<h3> Step 1</h3>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -112,7 +144,7 @@ Ken
 <br />
 
 
-
+<h3> Step 1</h3>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -126,7 +158,7 @@ Sev-C (8 hours, business hours)
 </p>
 <br />
 
-
+<h3> Step 1</h3>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
