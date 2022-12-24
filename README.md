@@ -137,10 +137,10 @@ Configure Agents (workers), who are usally able to view, update, and manage cust
     
 When creating a password for the agents have the settings shown above. However,it is just for the walk-through as you might want turn that on for security. .
 
-    
+Assign them the appropriate roles,permissions, departments, and teams.
+  
     Admin Panel -> Agents -> Add New
     
- 
     Kevin
     
     Evelyn
