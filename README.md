@@ -92,13 +92,17 @@ Deparments are used to divide and class so that when errors/tickets come through
 
 <h3> Step 4</h3>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/65gUw4E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/ivI7jVD.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configure Teams
-Admin Panel -> Agents -> Teams
-Level I Support
-Level II Support
+In osTicket, "teams" are groups of users who work together to manage and respond to customer inquiries, issues, and requests. An administrator creates and configure teams to fit the specific needs and workflow of an organization.
+  
+    Admin Panel -> Agents -> Teams
+  
+    Create "Level II Support"
+  
+    Differences between the teams can be up the organization. For example, Level II Support might have people with more expertise than I.
 
 </p>
 <br />
@@ -106,12 +110,14 @@ Level II Support
 
 <h3> Step 5</h3>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dmnhEM7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Allow anyone to create tickets
-Admin Panel -> Settings -> User Settings
-Registration Required: Require registration and login to create tickets 
+Allow anyone to create tickets even if they are not a user in the System. However, we will require them to register and login.
+  
+    Admin Panel -> Settings -> User Settings
+  
+    Registration Required: Require registration and login to create tickets 
 
 </p>
 <br />
@@ -119,13 +125,25 @@ Registration Required: Require registration and login to create tickets
 
 <h3> Step 6</h3>
 <p>
+<img src="https://i.imgur.com/id6Saks.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IssElwr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mfEgV4J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Configure Agents (workers)
-Admin Panel -> Agents -> Add New
-Jane
-John
+Configure Agents (workers), who are usally able to view, update, and manage customer tickets within the system.
+    
+When creating a password for the agents have the settings shown above. However,it is just for the walk-through as you might want turn that on for security. .
+
+    
+    Admin Panel -> Agents -> Add New
+    
+ 
+    Kevin
+    
+    Evelyn
 
 </p>
 <br />
