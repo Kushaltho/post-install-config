@@ -50,7 +50,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 
 
-<h3> Step 2</h3>
+<h3> Step 2 Configure Roles</h3>
 <p>
 <img src="https://i.imgur.com/Bob96DS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -71,14 +71,12 @@ Quick Difference between an admin and agent is that an admin(job title usally sy
 
 
 
-<h3> Step 3</h3>
+<h3> Step 3 Configure Departments</h3>
 <p>
 <img src="https://i.imgur.com/UldqTwt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Deparments are used to divide and class so that when errors/tickets come through it can be directed towars the right deparemnt such as when there is a subnetting problem we would send it to the networking department.
-    
-    Configure Departments
 
     Admin Panel -> Agents -> Departments
 
@@ -90,7 +88,7 @@ Deparments are used to divide and class so that when errors/tickets come through
 <br />
 
 
-<h3> Step 4</h3>
+<h3> Step 4 Configure Teams</h3>
 <p>
 <img src="https://i.imgur.com/65gUw4E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <img src="https://i.imgur.com/ivI7jVD.png" width="80%" alt="Disk Sanitization Steps"/>
@@ -108,7 +106,7 @@ In osTicket, "teams" are groups of users who work together to manage and respond
 <br />
 
 
-<h3> Step 5</h3>
+<h3> Step 5 Allow anyone to create tickets</h3>
 <p>
 <img src="https://i.imgur.com/dmnhEM7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -138,25 +136,32 @@ When creating a password for the agents have the settings shown above. However,i
 
 Assign them the appropriate roles,permissions, departments, and teams.
   
+Names and emails are up to you.
+  
     Admin Panel -> Agents -> Add New
     
-    Kevin
+    Create "Kevin" and "Evelyn"
+  
     
-    Evelyn
+    
+    
 
 </p>
 <br />
 
 
-<h3> Step 7</h3>
+<h3> Step 7 Configure Users </h3>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GAp9Ya7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configure Users (customers)
-Agent Panel -> Users -> Add New
-Karen
-Ken
+Users are the ticket owners of the tickets in the help desk. When a ticket is created in the help desk, the user is associated with their email address.
+  
+Names and emails are up to you.
+
+    Agent Panel -> Users -> Add New
+
+    Create "Andrew" and "Zuquan"
 
 </p>
 <br />
@@ -164,32 +169,44 @@ Ken
 
 <h3> Step 8</h3>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eW8zOjG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZakDWXP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gEgMP3C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configure SLA
-Admin Panel -> Manage -> SLA
-Sev-A (1 hour, 24/7)
-Sev-B (4 hours, 24/7)
-Sev-C (8 hours, business hours)
+SLA might outline the response times and resolution times that the service provider promises to deliver for (tickets)customer inquiries or issues. 
+
+But as a worker for the service provider it shows the sverity of the issue/ticket.
+
+    Admin Panel -> Manage -> SLA
+
+    Sev-A (1 hour, 24/7)
+
+    Sev-B (4 hours, 24/7)
+
+    Sev-C (8 hours, business hours)
 
 </p>
 <br />
 
-<h3> Step 9</h3>
+<h3> Step 9 Configure Help Topics </h3>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rdcsle7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configure Help Topics
+Help topics are categories that are used to organize and classify different types of customer inquiries or issues. Help topics can be used to help customers find the appropriate resources or assistance for their specific needs, and can also help support staff efficiently route and prioritize incoming requests.
+
+Add the following through:
+
+    Admin Panel -> Manage -> Help Topics
   
-Admin Panel -> Manage -> Help Topics
+    Business Critical Outage
   
-Business Critical Outage
-  
-Personal Computer Issues
-Equipment Request
-Password Reset
+    Personal Computer Issues
+    
+    Equipment Request
+    
+    Password Reset
 
 
 </p>
