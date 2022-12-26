@@ -125,7 +125,8 @@ Allow anyone to create tickets even if they are not a user in the System. Howeve
 <p>
 <img src="https://i.imgur.com/id6Saks.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/IssElwr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/mfEgV4J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/dGsKyNX.png" width="80%" alt="Disk Sanitization Steps"/>
+
 <img src="https://i.imgur.com/ff64E4O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
