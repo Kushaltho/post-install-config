@@ -30,7 +30,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<h3> Step 1</h3>
+<h3> Step 1 Open VM and Login</h3>
 
 
 <p>
@@ -121,7 +121,7 @@ Allow anyone to create tickets even if they are not a user in the System. Howeve
 <br />
 
 
-<h3> Step 6</h3>
+<h3> Step 6 Configure Agents </h3>
 <p>
 <img src="https://i.imgur.com/id6Saks.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/IssElwr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -167,8 +167,7 @@ Names and emails are up to you.
 <br />
 
 
-<h3> Step 8</h3>
-<p>
+<h3> Step 8 Configure SLAs</h3>
 <img src="https://i.imgur.com/eW8zOjG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/ZakDWXP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/gEgMP3C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
