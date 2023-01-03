@@ -24,7 +24,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Configure Roles,Teams, Departments,
 - Add Agents/workers and Users/Customer
-- Configure Agents and Users with appropriate Roles,Teams and Deparments
+- Configure Agents and Users with appropriate Roles,Teams and Departments
 - Configure SLA
 - Configure Help Topics
 
@@ -56,7 +56,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 </p>
 <p>
 
-Quick Difference between an admin and agent is that an admin(job title usally system admin) sets up the osticket enironment/settings like SLAs while the agent(help desk) will work through the tickets. You will have a much clearer understanding after completing the whole walkthrough.
+Quick Difference between an admin and agent is that an admin(job title usually system admin) sets up the osticket environment/settings like SLAs while the agent(help desk) will work through the tickets. You will have a much clearer understanding after completing the whole walkthrough.
     
 
     Admin Panel -> Agents -> Roles -> Add New Role
@@ -76,13 +76,13 @@ Quick Difference between an admin and agent is that an admin(job title usally sy
 <img src="https://i.imgur.com/UldqTwt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Deparments are used to divide and class so that when errors/tickets come through it can be directed towars the right deparemnt such as when there is a subnetting problem we would send it to the networking department.
+Departments are used to divide and class so that when errors/tickets come through it can be directed towards the right department such as when there is a subnetting problem we would send it to the networking department.
 
     Admin Panel -> Agents -> Departments
 
     Create department "System Administrators"
     
-    Leave the defualt settings
+    Leave the default settings
 
 </p>
 <br />
@@ -94,13 +94,13 @@ Deparments are used to divide and class so that when errors/tickets come through
   <img src="https://i.imgur.com/ivI7jVD.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In osTicket, "teams" are groups of users who work together to manage and respond to customer inquiries, issues, and requests. An administrator creates and configure teams to fit the specific needs and workflow of an organization.
+In osTicket, "teams" are groups of users who work together to manage and respond to customer inquiries, issues, and requests. An administrator creates and configures teams to fit the specific needs and workflow of an organization.
   
     Admin Panel -> Agents -> Teams
   
     Create "Level II Support"
   
-    Differences between the teams can be up the organization. For example, Level II Support might have people with more expertise than I.
+    Differences between the teams can be up to the organization. For example, Level II Support might have people with more expertise than I.
 
 </p>
 <br />
@@ -131,9 +131,9 @@ Allow anyone to create tickets even if they are not a user in the System. Howeve
 
 </p>
 <p>
-Configure Agents (workers), who are usally able to view, update, and manage customer tickets within the system.
+Configure Agents (workers), who are usually able to view, update, and manage customer tickets within the system.
     
-When creating a password for the agents have the settings shown above. However,it is just for the walk-through as you might want turn that on for security. .
+When creating a password for the agents have the settings shown above. However,it is just for the walk-through as you might want to turn that on for security. .
 
 Assign them the appropriate roles,permissions, departments, and teams.
   
@@ -176,7 +176,7 @@ Names and emails are up to you.
 <p>
 SLA might outline the response times and resolution times that the service provider promises to deliver for (tickets)customer inquiries or issues. 
 
-But as a worker for the service provider it shows the sverity of the issue/ticket.
+But as a worker for the service provider it shows the severity of the issue/ticket.
 
     Admin Panel -> Manage -> SLA
 
@@ -211,3 +211,4 @@ Add the following through:
 
 </p>
 <br />
+
